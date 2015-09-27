@@ -7,7 +7,13 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71; 
+  background: -webkit-linear-gradient(90deg, #DC2424 10%, #4A569D 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #DC2424 10%, #4A569D 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #DC2424 10%, #4A569D 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #DC2424 10%, #4A569D 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #DC2424 10%, #4A569D 90%); /* W3C */
+}
 
 a {
   color: #1e6bb8;
@@ -245,9 +251,5 @@ a {
     font-size: 0.9rem; } }
     
 
-background: -webkit-linear-gradient(90deg, #DC2424 10%, #4A569D 90%); /* Chrome 10+, Saf5.1+ */
-background:    -moz-linear-gradient(90deg, #DC2424 10%, #4A569D 90%); /* FF3.6+ */
-background:     -ms-linear-gradient(90deg, #DC2424 10%, #4A569D 90%); /* IE10 */
-background:      -o-linear-gradient(90deg, #DC2424 10%, #4A569D 90%); /* Opera 11.10+ */
-background:         linear-gradient(90deg, #DC2424 10%, #4A569D 90%); /* W3C */
+
         
